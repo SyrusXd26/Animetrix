@@ -2,54 +2,224 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Animetrix - Hindi Dubbed Anime</title>
-  <link rel="stylesheet" href="style.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Animetrix - Hindi Anime Series</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet"/>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background-color: #111;
+      color: #eee;
+      padding: 0;
+    }
+
+    header {
+      background: #1a1a1a;
+      padding: 15px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #333;
+    }
+
+    header h1 {
+      color: #f94144;
+      font-size: 1.8em;
+    }
+
+    nav a {
+      color: #eee;
+      margin-left: 20px;
+      text-decoration: none;
+      font-size: 1em;
+    }
+
+    nav a:hover {
+      color: #f94144;
+    }
+
+    .hero {
+      background: url('https://wallpaperaccess.com/full/2007833.jpg') no-repeat center center/cover;
+      height: 250px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+
+    .hero h2 {
+      color: #fff;
+      background-color: rgba(0, 0, 0, 0.6);
+      padding: 10px 20px;
+      border-radius: 5px;
+      font-size: 2em;
+    }
+
+    .container {
+      display: grid;
+      grid-template-columns: 3fr 1fr;
+      padding: 30px 20px;
+      gap: 20px;
+    }
+
+    .anime-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+      gap: 20px;
+    }
+
+    .anime-card {
+      background-color: #1e1e1e;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+    }
+
+    .anime-card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .anime-card .content {
+      padding: 10px;
+    }
+
+    .anime-card h3 {
+      font-size: 1em;
+      margin-bottom: 5px;
+    }
+
+    .anime-card p {
+      font-size: 0.8em;
+      color: #aaa;
+    }
+
+    aside {
+      background-color: #1a1a1a;
+      padding: 20px;
+      border-radius: 8px;
+    }
+
+    aside h3 {
+      margin-bottom: 15px;
+    }
+
+    .search input {
+      width: 100%;
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+    }
+
+    .popular-post {
+      margin-top: 20px;
+    }
+
+    .popular-post p {
+      margin-bottom: 10px;
+      font-size: 0.9em;
+    }
+
+    footer {
+      background-color: #1a1a1a;
+      text-align: center;
+      padding: 15px;
+      color: #888;
+      margin-top: 30px;
+    }
+
+    .telegram-btn {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 10px 20px;
+      background-color: #0088cc;
+      color: white;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .telegram-btn:hover {
+      background-color: #0077b6;
+    }
+  </style>
 </head>
 <body>
-  <header>
-    <div class="hero">
-      <h1>⚡ Animetrix ⚡</h1>
-      <p>Your Destination for Hindi Dubbed Anime & Web Series</p>
-    </div>
-  </header>
 
+<header>
+  <h1>Animetrix</h1>
   <nav>
     <a href="#">Home</a>
-    <a href="#">Anime</a>
-    <a href="#">Web Series</a>
+    <a href="#">Movies</a>
+    <a href="#">Series</a>
+    <a href="#">Hindi Dub</a>
     <a href="#">Contact</a>
   </nav>
+</header>
 
-  <section class="gallery">
-    <div class="card">
-      <h2>Naruto Episode 1</h2>
-      <video controls>
-        <source src="naruto-ep1.mp4" type="video/mp4" />
-        Your browser does not support the video tag.
-      </video>
+<section class="hero">
+  <div>
+    <h2>Watch Hindi Dubbed Anime Free</h2>
+    <a href="https://t.me/YourChannelLink" class="telegram-btn" target="_blank">Join Our Telegram</a>
+  </div>
+</section>
+
+<div class="container">
+  <main class="anime-grid">
+
+    <div class="anime-card">
+      <img src="https://m.media-amazon.com/images/M/MV5BZTdkNDMzZDkt.jpg" alt="Attack on Titan">
+      <div class="content">
+        <h3>Attack on Titan</h3>
+        <p>Hindi Dub | Ep 1-25</p>
+      </div>
     </div>
 
-    <div class="card">
-      <h2>Attack on Titan Ep 1</h2>
-      <video controls>
-        <source src="aot-ep1.mp4" type="video/mp4" />
-        Your browser does not support the video tag.
-      </video>
+    <div class="anime-card">
+      <img src="https://staticg.sportskeeda.com/editor/2023/05/4c06f-16854522670958-1920.jpg" alt="Jujutsu Kaisen">
+      <div class="content">
+        <h3>Jujutsu Kaisen</h3>
+        <p>Hindi Dub | All Episodes</p>
+      </div>
     </div>
 
-    <div class="card">
-      <h2>Death Note Ep 1</h2>
-      <video controls>
-        <source src="deathnote-ep1.mp4" type="video/mp4" />
-        Your browser does not support the video tag.
-      </video>
+    <div class="anime-card">
+      <img src="https://i.ytimg.com/vi/DWaE3ZPrD6U/maxresdefault.jpg" alt="Death Note">
+      <div class="content">
+        <h3>Death Note</h3>
+        <p>Hindi Dub | Full Series</p>
+      </div>
     </div>
-  </section>
 
-  <footer>
-    <p>© 2025 Animetrix | Powered by You us lol</p>
-  </footer>
+    <!-- Add more cards as needed -->
+
+  </main>
+
+  <aside>
+    <div class="search">
+      <h3>Search Anime</h3>
+      <input type="text" placeholder="Search...">
+    </div>
+
+    <div class="popular-post">
+      <h3>Popular Posts</h3>
+      <p>✓ Demon Slayer Hindi Dub</p>
+      <p>✓ Naruto All Episodes</p>
+      <p>✓ AOT Season 4</p>
+    </div>
+  </aside>
+</div>
+
+<footer>
+  <p>© 2025 Animetrix. Fan-Made Website for Educational & Entertainment Purpose Only.</p>
+</footer>
+
 </body>
 </html>
